@@ -12,7 +12,6 @@
         android:layout_height="32dp"
         android:layout_marginStart="140dp"
         android:layout_marginTop="14dp"
-        android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/item8" />
 
@@ -22,7 +21,6 @@
         android:layout_height="31dp"
         android:layout_marginStart="140dp"
         android:layout_marginTop="7dp"
-        android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/item7" />
 
@@ -32,7 +30,6 @@
         android:layout_height="32dp"
         android:layout_marginStart="140dp"
         android:layout_marginTop="16dp"
-        android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/item9" />
 
@@ -42,7 +39,6 @@
         android:layout_height="32dp"
         android:layout_marginStart="140dp"
         android:layout_marginTop="10dp"
-        android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/item6" />
 
@@ -52,7 +48,6 @@
         android:layout_height="37dp"
         android:layout_marginStart="140dp"
         android:layout_marginTop="12dp"
-        android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/item5" />
 
@@ -62,7 +57,6 @@
         android:layout_height="32dp"
         android:layout_marginStart="140dp"
         android:layout_marginTop="16dp"
-        android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/item4" />
 
@@ -72,16 +66,14 @@
         android:layout_height="32dp"
         android:layout_marginStart="140dp"
         android:layout_marginTop="14dp"
-        android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/item3" />
 
     <TextView
         android:id="@+id/item1"
         android:layout_width="283dp"
-        android:layout_height="37dp"
+        android:layout_height="38dp"
         android:layout_marginStart="140dp"
-        android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -91,7 +83,6 @@
         android:layout_height="32dp"
         android:layout_marginStart="140dp"
         android:layout_marginTop="8dp"
-        android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/item1" />
 
@@ -101,7 +92,6 @@
         android:layout_height="31dp"
         android:layout_marginStart="140dp"
         android:layout_marginTop="11dp"
-        android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/item2" />
 
