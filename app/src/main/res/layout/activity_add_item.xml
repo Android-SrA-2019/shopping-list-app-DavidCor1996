@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddItem">
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:layout_marginBottom="18dp"
+        android:text="Milk"
+        app:layout_constraintBottom_toTopOf="@+id/button14"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="buttonClick"/>
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="59dp"
+        android:layout_marginBottom="19dp"
+        android:text="Eggs"
+        app:layout_constraintBottom_toTopOf="@+id/button15"
+        app:layout_constraintStart_toEndOf="@+id/button12"
+        android:onClick="buttonClick"/>
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:layout_marginBottom="19dp"
+        android:text="Cereal"
+        app:layout_constraintBottom_toTopOf="@+id/button16"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="buttonClick"/>
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="59dp"
+        android:layout_marginBottom="19dp"
+        android:text="Rice"
+        app:layout_constraintBottom_toTopOf="@+id/button17"
+        app:layout_constraintStart_toEndOf="@+id/button14"
+        android:onClick="buttonClick"/>
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:layout_marginBottom="23dp"
+        android:text="Apples"
+        app:layout_constraintBottom_toTopOf="@+id/button18"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="buttonClick"/>
+
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:layout_marginBottom="23dp"
+        android:text="Oranges"
+        app:layout_constraintBottom_toTopOf="@+id/button19"
+        app:layout_constraintStart_toEndOf="@+id/button16"
+        android:onClick="buttonClick"/>
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:layout_marginBottom="39dp"
+        android:text="Juice"
+        app:layout_constraintBottom_toTopOf="@+id/button20"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="buttonClick"/>
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="59dp"
+        android:layout_marginBottom="38dp"
+        android:text="Chicken"
+        app:layout_constraintBottom_toTopOf="@+id/button21"
+        app:layout_constraintStart_toEndOf="@+id/button18"
+        android:onClick="buttonClick"/>
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:layout_marginBottom="136dp"
+        android:text="Steak"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="buttonClick"/>
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="59dp"
+        android:layout_marginBottom="136dp"
+        android:text="Hamburger"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button20"
+        android:onClick="buttonClick"/>
+
+</android.support.constraint.ConstraintLayout>
