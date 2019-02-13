@@ -22,6 +22,8 @@ private String item;
         this.item = item;
     }
 
+    public ShoppingList(){}
+
     public ShoppingList(String name, int count){
         this.count = count;
         this.item = name;
